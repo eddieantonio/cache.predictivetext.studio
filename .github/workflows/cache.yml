@@ -1,6 +1,7 @@
 name: Cache Keyman API
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: '0 0 * * *'
 
@@ -12,9 +13,7 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Fetch from Keyman API
-        run: |
-          curl https://api.keyman.com/search?q= > src/gen/cached-keyman-api.json
-
+        run: sh download-latest.sh
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Update Keyman API
