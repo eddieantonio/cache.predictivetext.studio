@@ -1,0 +1,19 @@
+{
+  "name": "cache.predictivetext.studio",
+  "private": true,
+  "description": "Caches an API call from Keyman\"",
+  "main": "build.js",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eddieantonio/cache.predictivetext.studio.git"
+  },
+  "author": "Eddie Antonio Santos <eddieantonio@hey.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eddieantonio/cache.predictivetext.studio/issues"
+  },
+  "homepage": "https://github.com/eddieantonio/cache.predictivetext.studio#readme"
+}
