@@ -1,15 +1,14 @@
 const fs = require("fs");
-const data = require("./cached-keyman-api.json");
+const apiData = require("./cached-keyman-api.json");
 const languages = require("./cached-languages.json");
 
-fs.writeFileSync(
-  "./public/cached-keyman-api.json",
-  JSON.stringify(data),
-  "utf8"
-);
+exportAsMinimalJSON(apiData, "cached-keyman-api.json");
+exportAsMinimalJSON(languages, "cached-languages.json");
 
-fs.writeFileSync(
-  "./public/cached-languages.json",
-  JSON.stringify(languages),
-  "utf8"
-);
+function exportAsMinimalJSON(thing, filename) {
+  fs.writeFileSync(
+    `./public/${filename}`,
+    JSON.stringify(thing),
+    "utf8"
+  );
+}
