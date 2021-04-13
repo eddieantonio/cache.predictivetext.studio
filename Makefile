@@ -1,8 +1,8 @@
-all: cached-keyman-api.json cached-languages.json
+cache-responses: cached-keyman-api.json cached-languages.json
 
 download: cached-keyman-api.json 
 
-.PHONY: all download
+.PHONY: download cache-responses
 
 LIBEXEC = ./libexec
 
