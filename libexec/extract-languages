@@ -1,0 +1,20 @@
+#!/usr/bin/env node
+
+const assert = require("assert");
+
+const {languages} = require('../cached-keyman-api.json');
+assert(languages instanceof Array);
+
+/* Extract properties IN A KNOWN ORDER to make more consistent (and smaller)
+ * git diffs. */
+const filteredLanguages = languages
+  .map(language => {
+    const {id, name} = language;
+    assert(typeof id == "string");
+    return { id, name }
+  })
+  .sort((a, b) => a.id.localeCompare(b.id, 'en'));
+
+console.log(JSON.stringify(filteredLanguages, null, 2));
+
+// vim: set ft=javascript:
