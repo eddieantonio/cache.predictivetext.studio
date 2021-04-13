@@ -10,6 +10,6 @@ fs.writeFileSync(
 
 fs.writeFileSync(
   "./public/cached-languages.json",
-  JSON.stringify(data),
+  JSON.stringify(languages),
   "utf8"
 );
