@@ -556,6 +556,10 @@
     "name": "Bende"
   },
   {
+    "id": "bdq",
+    "name": "Bahnar"
+  },
+  {
     "id": "bdu",
     "name": "Oroko"
   },
@@ -3288,6 +3292,10 @@
     "name": "Koke"
   },
   {
+    "id": "kpm",
+    "name": "Koho"
+  },
+  {
     "id": "kqd",
     "name": "Koy Sanjaq Surat"
   },
@@ -5474,6 +5482,10 @@
   {
     "id": "qxw",
     "name": "Quechua, Jauja Wanca"
+  },
+  {
+    "id": "rad",
+    "name": "Rade"
   },
   {
     "id": "rar",
