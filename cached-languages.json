@@ -172,6 +172,10 @@
     "name": "Ahom"
   },
   {
+    "id": "ahs",
+    "name": "Ashe"
+  },
+  {
     "id": "aig",
     "name": "Anguillan Creole English"
   },
@@ -4056,6 +4060,10 @@
     "name": "Mbugwe"
   },
   {
+    "id": "mhi",
+    "name": "Ma’di"
+  },
+  {
     "id": "mhk",
     "name": "Mungaka"
   },
@@ -4712,6 +4720,10 @@
     "name": "Nkongho"
   },
   {
+    "id": "nko",
+    "name": "Nkonya"
+  },
+  {
     "id": "nkt",
     "name": "Nyika, Tanzania"
   },
@@ -4962,6 +4974,10 @@
   {
     "id": "oc",
     "name": "Gascon, Aranese"
+  },
+  {
+    "id": "ocu",
+    "name": "Matlatzinca, Atzingo"
   },
   {
     "id": "odk",
@@ -5250,6 +5266,10 @@
   {
     "id": "pnb",
     "name": "Punjabi, Western"
+  },
+  {
+    "id": "png",
+    "name": "Pangu"
   },
   {
     "id": "pnt",
@@ -6600,6 +6620,10 @@
     "name": "Ulithian"
   },
   {
+    "id": "uma",
+    "name": "Umatilla"
+  },
+  {
     "id": "umu",
     "name": "Munsee"
   },
@@ -6926,6 +6950,10 @@
   {
     "id": "yer",
     "name": "Tarok"
+  },
+  {
+    "id": "yes",
+    "name": "Nyankpa"
   },
   {
     "id": "ygp",
