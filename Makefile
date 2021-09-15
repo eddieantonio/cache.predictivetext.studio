@@ -6,9 +6,9 @@ download: cached-keyman-api.json
 
 BINDIR = ./bin
 
-cached-languages.json: cached-keyman-api.json $(LIBEXEC)/extract-languages
+cached-languages.json: cached-keyman-api.json $(BINDIR)/extract-languages
 	$(BINDIR)/extract-languages > $@
 
 .PHONY: cached-keyman-api.json
-cached-keyman-api.json: $(LIBEXEC)/fetch-latest-keyman-api
+cached-keyman-api.json: $(BINDIR)/fetch-latest-keyman-api
 	$(BINDIR)/fetch-latest-keyman-api
